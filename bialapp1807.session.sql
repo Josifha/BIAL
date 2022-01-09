@@ -1,0 +1,8 @@
+CREATE TABLE loginss
+(
+
+    id INT IDENTITY PRIMARY KEY,
+    USER_NAMES NVARCHAR(128) NOT NULL,
+    Passwords NVARCHAR(128) NOT NULL,
+   
+)
