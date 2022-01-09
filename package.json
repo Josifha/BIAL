@@ -1,0 +1,68 @@
+{
+  "name": "bi-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@azure/msal-browser": "^2.21.0",
+    "@azure/msal-react": "^1.2.0",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@mui/icons-material": "^5.2.5",
+    "@mui/material": "^5.2.6",
+    "@react-navigation/native": "^6.0.6",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "classnames": "^2.3.1",
+    "crypto": "^1.0.1",
+    "dgram": "^1.0.1",
+    "esm-index": "^2.0.1",
+    "firebase": "^8.10.0",
+    "firebase-auth": "^0.1.2",
+    "idb": "^6.1.4",
+    "install": "^0.13.0",
+    "react": "^17.0.2",
+    "react-currency-format": "^1.0.0",
+    "react-dom": "^17.0.2",
+    "react-native": "^0.66.4",
+    "react-router": "^6.0.0-beta.8",
+    "react-router-dom": "^6.0.0-beta.8",
+    "react-router-native": "^6.2.1",
+    "react-scripts": "^5.0.0",
+    "stream": "^0.0.2",
+    "tedious": "^14.0.0",
+    "web-vitals": "^2.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "path-browserify": "^1.0.1"
+  }
+}
